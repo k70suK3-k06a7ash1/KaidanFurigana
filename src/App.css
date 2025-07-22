@@ -72,6 +72,64 @@ rt {
   font-weight: 500;
 }
 
+.table-of-contents {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.table-of-contents h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.table-of-contents ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.table-of-contents li {
+  margin: 0;
+}
+
+.toc-link {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #495057;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.toc-link:hover {
+  background: #e74c3c;
+  color: #fff;
+  border-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(231, 76, 60, 0.2);
+}
+
+.toc-link ruby rt {
+  color: inherit;
+}
+
+.toc-link:hover ruby rt {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 @media (max-width: 768px) {
   .app-container {
     padding: 1rem;
@@ -91,5 +149,14 @@ rt {
   
   .furigana-text h2 {
     font-size: 1.7rem;
+  }
+
+  .table-of-contents ul {
+    grid-template-columns: 1fr;
+  }
+  
+  .toc-link {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
   }
 }
