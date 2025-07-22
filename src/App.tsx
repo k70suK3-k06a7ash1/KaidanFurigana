@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import './App.css'
 import { ContentSection } from './components/ContentSection'
 import { TableOfContents } from './components/TableOfContents'
+import { ScrollToTop } from './components/ScrollToTop'
 import { siteContent } from './data/content'
 
 const App = () => {
@@ -39,6 +40,8 @@ const App = () => {
           />
         ))}
       </main>
+      
+      <ScrollToTop />
     </div>
   )
 }
