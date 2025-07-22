@@ -2,8 +2,7 @@ import './App.css'
 import { ContentSection } from './components/ContentSection'
 import { siteContent } from './data/content'
 
-function App() {
-  return (
+const App = () => (
     <div className="app-container">
       <header>
         <h1>怪談フリガナ</h1>
@@ -17,6 +16,6 @@ function App() {
       </main>
     </div>
   )
-}
+
 
 export default App
