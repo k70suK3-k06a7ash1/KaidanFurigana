@@ -1,42 +1,90 @@
-#root {
-  max-width: 1280px;
+.app-container {
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;
+}
+
+header {
   text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+header p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+main {
+  line-height: 2;
+}
+
+article {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  border: 1px solid #f1f1f1;
+}
+
+.furigana-text {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.furigana-text h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.furigana-text p {
+  margin-bottom: 1.5rem;
+  text-indent: 1em;
+  color: #34495e;
+}
+
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.6em;
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  header h1 {
+    font-size: 2rem;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  article {
+    padding: 1.5rem;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  
+  .furigana-text {
+    font-size: 1.1rem;
+  }
+  
+  .furigana-text h2 {
+    font-size: 1.7rem;
+  }
 }
