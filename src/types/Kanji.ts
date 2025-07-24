@@ -5,7 +5,7 @@ interface KanjiCompound {
   reading: string;
 }
 
-interface KanjiEntry {
+export interface KanjiEntry {
   kanji: string;
   readings: string[];
   compounds: KanjiCompound[];
