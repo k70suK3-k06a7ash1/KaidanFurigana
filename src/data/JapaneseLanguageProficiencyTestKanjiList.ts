@@ -8,7 +8,8 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "悪事", "reading": "あくじ"},
         {"word": "悪い", "reading": "わるい"}
-      ]
+      ],
+      "relatedContent":[]
     },
     {
       "kanji": "暗",
@@ -16,21 +17,23 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "暗黒", "reading": "あんこく"},
         {"word": "暗い", "reading": "くらい"}
-      ]
+      ],
+      "relatedContent":[]
     },
     {
       "kanji": "医",
       "readings": ["い"],
       "compounds": [
         {"word": "医者", "reading": "いしゃ"}
-      ]
+      ],
+      "relatedContent":[]
     },
     {
       "kanji": "意",
       "readings": ["い"],
       "compounds": [
         {"word": "意思", "reading": "いし"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "育",
@@ -39,7 +42,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "育児", "reading": "いくじ"},
         {"word": "育てる", "reading": "そだてる"},
         {"word": "育つ", "reading": "そだつ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "引",
@@ -47,21 +50,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "引力", "reading": "いんりょく"},
         {"word": "引く", "reading": "ひく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "員",
       "readings": ["いん"],
       "compounds": [
         {"word": "職員", "reading": "しょくいん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "院",
       "readings": ["いん"],
       "compounds": [
         {"word": "大学院", "reading": "だいがくいん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "飲",
@@ -69,7 +72,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "飲料", "reading": "いんりょう"},
         {"word": "飲む", "reading": "のむ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "運",
@@ -77,14 +80,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "運転", "reading": "うんてん"},
         {"word": "運ぶ", "reading": "はこぶ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "英",
       "readings": ["えい"],
       "compounds": [
         {"word": "英語", "reading": "えいご"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "映",
@@ -92,21 +95,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "映画", "reading": "えいが"},
         {"word": "映す", "reading": "うつす"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "駅",
       "readings": ["えき"],
       "compounds": [
         {"word": "東京駅", "reading": "とうきょうえき"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "園",
       "readings": ["えん"],
       "compounds": [
         {"word": "遊園地", "reading": "ゆうえんち"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "遠",
@@ -114,7 +117,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "遠近", "reading": "えんきん"},
         {"word": "遠い", "reading": "とおい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "屋",
@@ -122,7 +125,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "家屋", "reading": "かおく"},
         {"word": "肉屋", "reading": "にくや"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "音",
@@ -130,7 +133,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "風の音", "reading": "かぜのおと"},
         {"word": "音楽", "reading": "おんがく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "温",
@@ -138,14 +141,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "温泉", "reading": "おんせん"},
         {"word": "温かい", "reading": "あたたかい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "化",
       "readings": ["か"],
       "compounds": [
         {"word": "化学", "reading": "かがく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "夏",
@@ -153,7 +156,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "夏季", "reading": "かき"},
         {"word": "夏休み", "reading": "なつやすみ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "家",
@@ -161,7 +164,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "家族", "reading": "かぞく"},
         {"word": "家の中", "reading": "いえのなか"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "歌",
@@ -170,21 +173,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "歌手", "reading": "かしゅ"},
         {"word": "歌う", "reading": "うたう"},
         {"word": "歌", "reading": "うた"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "画",
       "readings": ["が"],
       "compounds": [
         {"word": "画家", "reading": "がか"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "回",
       "readings": ["かい"],
       "compounds": [
         {"word": "回数", "reading": "かいすう"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "絵",
@@ -192,7 +195,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "絵画", "reading": "かいが"},
         {"word": "犬の絵", "reading": "いぬのえ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "開",
@@ -201,7 +204,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "開会", "reading": "かいかい"},
         {"word": "開く", "reading": "あく"},
         {"word": "開く", "reading": "ひらく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "楽",
@@ -209,7 +212,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "音楽会", "reading": "おんがくかい"},
         {"word": "楽しい", "reading": "たのしい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "甘",
@@ -217,7 +220,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "甘味", "reading": "かんみ"},
         {"word": "甘い", "reading": "あまい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "寒",
@@ -225,14 +228,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "寒暖", "reading": "かんだん"},
         {"word": "寒い", "reading": "さむい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "漢",
       "readings": ["かん"],
       "compounds": [
         {"word": "漢字", "reading": "かんじ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "顔",
@@ -240,7 +243,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "顔面", "reading": "がんめん"},
         {"word": "顔がいい", "reading": "かおがいい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "起",
@@ -248,7 +251,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "起床", "reading": "きしょう"},
         {"word": "起きる", "reading": "おきる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "帰",
@@ -256,14 +259,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "帰国", "reading": "きこく"},
         {"word": "帰る", "reading": "かえる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "客",
       "readings": ["きゃく"],
       "compounds": [
         {"word": "お客さん", "reading": "おきゃくさん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "急",
@@ -271,7 +274,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "急に", "reading": "きゅうに"},
         {"word": "急いで", "reading": "いそいで"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "牛",
@@ -279,7 +282,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "牛肉", "reading": "ぎゅうにく"},
         {"word": "子牛", "reading": "こうし"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "去",
@@ -288,7 +291,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "消去", "reading": "しょうきょ"},
         {"word": "過去", "reading": "かこ"},
         {"word": "去る", "reading": "さる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "魚",
@@ -297,7 +300,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "魚類", "reading": "ぎょるい"},
         {"word": "海の魚", "reading": "うみのさかな"},
         {"word": "焼き魚", "reading": "やきざかな"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "京",
@@ -305,7 +308,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "京都", "reading": "きょうと"},
         {"word": "京葉線", "reading": "けいようせん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "強",
@@ -313,7 +316,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "強力", "reading": "きょうりょく"},
         {"word": "強い", "reading": "つよい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "教",
@@ -322,7 +325,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "教師", "reading": "きょうし"},
         {"word": "教える", "reading": "おしえる"},
         {"word": "教わる", "reading": "おそわる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "近",
@@ -330,21 +333,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "近距離", "reading": "きんきょり"},
         {"word": "近い", "reading": "ちかい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "銀",
       "readings": ["ぎん"],
       "compounds": [
         {"word": "銀色", "reading": "ぎんいろ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "区",
       "readings": ["く"],
       "compounds": [
         {"word": "第３地区", "reading": "だいさんちく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "苦",
@@ -353,7 +356,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "苦難", "reading": "くなん"},
         {"word": "苦しい", "reading": "くるしい"},
         {"word": "苦い", "reading": "にがい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "空",
@@ -361,7 +364,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "空席", "reading": "くうせき"},
         {"word": "青い空", "reading": "あおいそら"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "兄",
@@ -371,7 +374,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "兄弟", "reading": "きょうだい"},
         {"word": "兄の名前", "reading": "あにのなまえ"},
         {"word": "お兄さん", "reading": "おにいさん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "形",
@@ -379,7 +382,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "三角形", "reading": "さんかくけい"},
         {"word": "家の形", "reading": "いえのかたち"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "計",
@@ -387,7 +390,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "計算", "reading": "けいさん"},
         {"word": "計る", "reading": "はかる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "軽",
@@ -395,7 +398,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "軽量", "reading": "けいりょう"},
         {"word": "軽い", "reading": "かるい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "血",
@@ -404,7 +407,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "血液", "reading": "けつえき"},
         {"word": "血管", "reading": "けっかん"},
         {"word": "血の色", "reading": "ちのいろ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "決",
@@ -412,21 +415,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "決定", "reading": "けってい"},
         {"word": "決める", "reading": "きめる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "県",
       "readings": ["けん"],
       "compounds": [
         {"word": "千葉県", "reading": "ちばけん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "験",
       "readings": ["けん"],
       "compounds": [
         {"word": "経験", "reading": "けいけん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "元",
@@ -434,14 +437,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "元気", "reading": "げんき"},
         {"word": "元々", "reading": "もともと"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "工",
       "readings": ["こう"],
       "compounds": [
         {"word": "工事", "reading": "こうじ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "公",
@@ -449,7 +452,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "公園", "reading": "こうえん"},
         {"word": "公の場", "reading": "おおやけのば"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "光",
@@ -457,7 +460,8 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "日光", "reading": "にっこう"},
         {"word": "日の光", "reading": "ひのひかり"}
-      ]
+      ],
+      "relatedContent":[]
     }
   ],
   "N5_kanji": [
@@ -466,7 +470,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "readings": ["やす"],
       "compounds": [
         {"word": "安い", "reading": "やすい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "一",
@@ -477,28 +481,28 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "一つ", "reading": "ひとつ"},
         {"word": "一月", "reading": "いちがつ"},
         {"word": "一人", "reading": "ひとり"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "右",
       "readings": ["みぎ"],
       "compounds": [
         {"word": "右", "reading": "みぎ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "雨",
       "readings": ["あめ"],
       "compounds": [
         {"word": "雨", "reading": "あめ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "円",
       "readings": ["えん"],
       "compounds": [
         {"word": "円", "reading": "えん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "下",
@@ -506,7 +510,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "下", "reading": "した"},
         {"word": "下手な", "reading": "へたな"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "火",
@@ -514,21 +518,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "火", "reading": "ひ"},
         {"word": "火ようび", "reading": "かようび"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "何",
       "readings": ["なに", "なん"],
       "compounds": [
         {"word": "何", "reading": "なに"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "花",
       "readings": ["はな"],
       "compounds": [
         {"word": "花", "reading": "はな"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "会",
@@ -536,14 +540,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "会う", "reading": "あう"},
         {"word": "会社", "reading": "かいしゃ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "海",
       "readings": ["うみ"],
       "compounds": [
         {"word": "海", "reading": "うみ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "外",
@@ -552,7 +556,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "外国", "reading": "がいこく"},
         {"word": "外に", "reading": "そとに"},
         {"word": "外に", "reading": "ほかに"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "学",
@@ -562,7 +566,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "学校", "reading": "がっこう"},
         {"word": "大学", "reading": "だいがく"},
         {"word": "入学", "reading": "にゅうがく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "間",
@@ -571,7 +575,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "間", "reading": "あいだ"},
         {"word": "時間", "reading": "じかん"},
         {"word": "週間", "reading": "しゅうかん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "気",
@@ -579,7 +583,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "電気", "reading": "でんき"},
         {"word": "天気", "reading": "てんき"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "九",
@@ -588,7 +592,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "九", "reading": "きゅう"},
         {"word": "九つ", "reading": "ここのつ"},
         {"word": "九日", "reading": "ここのか"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "休",
@@ -596,14 +600,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "休み", "reading": "やすみ"},
         {"word": "休む", "reading": "やすむ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "金",
       "readings": ["かね"],
       "compounds": [
         {"word": "お金", "reading": "おかね"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "月",
@@ -616,14 +620,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "一月", "reading": "いちがつ"},
         {"word": "毎月", "reading": "まいつき"},
         {"word": "来月", "reading": "らいげつ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "犬",
       "readings": ["いぬ"],
       "compounds": [
         {"word": "犬", "reading": "いぬ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "見",
@@ -631,21 +635,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "見せる", "reading": "みせる"},
         {"word": "見る", "reading": "みる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "言",
       "readings": ["い"],
       "compounds": [
         {"word": "言う", "reading": "いう"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "古",
       "readings": ["ふる"],
       "compounds": [
         {"word": "古い", "reading": "ふるい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "五",
@@ -654,7 +658,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "五つ", "reading": "いつつ"},
         {"word": "五日", "reading": "いつか"},
         {"word": "五", "reading": "ご"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "午",
@@ -662,7 +666,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "午前", "reading": "ごぜん"},
         {"word": "午後", "reading": "ごご"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "後",
@@ -671,14 +675,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "後", "reading": "あと"},
         {"word": "後ろ", "reading": "うしろ"},
         {"word": "午後", "reading": "ごご"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "語",
       "readings": ["ご"],
       "compounds": [
         {"word": "日本語", "reading": "にほんご"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "口",
@@ -687,35 +691,35 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "入り口", "reading": "いりぐち"},
         {"word": "出口", "reading": "でぐち"},
         {"word": "口", "reading": "くち"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "広",
       "readings": ["ひろ"],
       "compounds": [
         {"word": "広い", "reading": "ひろい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "行",
       "readings": ["い"],
       "compounds": [
         {"word": "行く", "reading": "いく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "校",
       "readings": ["こう"],
       "compounds": [
         {"word": "学校", "reading": "がっこう"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "高",
       "readings": ["たか"],
       "compounds": [
         {"word": "高い", "reading": "たかい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "国",
@@ -723,7 +727,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "お国", "reading": "おくに"},
         {"word": "外国", "reading": "がいこく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "今",
@@ -734,14 +738,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "今年", "reading": "ことし"},
         {"word": "今月", "reading": "こんげつ"},
         {"word": "今週", "reading": "こんしゅう"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "左",
       "readings": ["ひだり"],
       "compounds": [
         {"word": "左", "reading": "ひだり"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "三",
@@ -750,14 +754,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "三", "reading": "さん"},
         {"word": "三日", "reading": "みっか"},
         {"word": "三つ", "reading": "みっつ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "山",
       "readings": ["やま"],
       "compounds": [
         {"word": "山", "reading": "やま"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "子",
@@ -766,7 +770,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "男の子", "reading": "おとこのこ"},
         {"word": "女の子", "reading": "おんなのこ"},
         {"word": "子ども", "reading": "こども"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "四",
@@ -775,7 +779,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "四", "reading": "し"},
         {"word": "四日", "reading": "よっか"},
         {"word": "四つ", "reading": "よっつ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "時",
@@ -783,7 +787,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "時", "reading": "とき"},
         {"word": "時間", "reading": "じかん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "七",
@@ -792,14 +796,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "七", "reading": "しち"},
         {"word": "七つ", "reading": "ななつ"},
         {"word": "七日", "reading": "なのか"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "社",
       "readings": ["しゃ"],
       "compounds": [
         {"word": "会社", "reading": "かいしゃ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "車",
@@ -807,7 +811,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "車", "reading": "くるま"},
         {"word": "電車", "reading": "でんしゃ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "手",
@@ -816,7 +820,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "上手な", "reading": "じょうずな"},
         {"word": "手", "reading": "て"},
         {"word": "下手な", "reading": "へたな"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "週",
@@ -827,7 +831,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "先週", "reading": "せんしゅう"},
         {"word": "毎週", "reading": "まいしゅう"},
         {"word": "来週", "reading": "らいしゅう"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "十",
@@ -836,7 +840,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "十", "reading": "じゅう"},
         {"word": "十日", "reading": "とおか"},
         {"word": "二十日", "reading": "はつか"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "出",
@@ -845,14 +849,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "出す", "reading": "だす"},
         {"word": "出る", "reading": "でる"},
         {"word": "出口", "reading": "でぐち"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "書",
       "readings": ["か"],
       "compounds": [
         {"word": "書く", "reading": "かく"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "女",
@@ -860,14 +864,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "女", "reading": "おんな"},
         {"word": "女の人", "reading": "おんなのひと"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "小",
       "readings": ["ちい"],
       "compounds": [
         {"word": "小さい", "reading": "ちいさい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "上",
@@ -876,14 +880,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "上げる", "reading": "あげる"},
         {"word": "上", "reading": "うえ"},
         {"word": "上手な", "reading": "じょうずな"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "食",
       "readings": ["た"],
       "compounds": [
         {"word": "食べる", "reading": "たべる"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "人",
@@ -895,7 +899,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "人", "reading": "ひと"},
         {"word": "一人", "reading": "ひとり"},
         {"word": "二人", "reading": "ふたり"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "水",
@@ -903,7 +907,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "水", "reading": "みず"},
         {"word": "水ようび", "reading": "すいようび"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "生",
@@ -912,14 +916,14 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "生まれる", "reading": "うまれる"},
         {"word": "学生", "reading": "がくせい"},
         {"word": "先生", "reading": "せんせい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "西",
       "readings": ["にし"],
       "compounds": [
         {"word": "西", "reading": "にし"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "青",
@@ -927,7 +931,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "青", "reading": "あお"},
         {"word": "青い", "reading": "あおい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "赤",
@@ -935,21 +939,21 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
       "compounds": [
         {"word": "赤", "reading": "あか"},
         {"word": "赤い", "reading": "あかい"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "千",
       "readings": ["せん"],
       "compounds": [
         {"word": "千", "reading": "せん"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "川",
       "readings": ["かわ"],
       "compounds": [
         {"word": "川", "reading": "かわ"}
-      ]
+      ],"relatedContent":[]
     },
     {
       "kanji": "先",
@@ -960,6 +964,7 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
         {"word": "先週", "reading": "せんしゅう"},
         {"word": "先生", "reading": "せんせい"}
       ]
+      ,"relatedContent":[]
     }
   ]
 }

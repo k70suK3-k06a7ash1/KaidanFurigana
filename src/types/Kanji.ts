@@ -9,7 +9,7 @@ interface KanjiEntry {
   kanji: string;
   readings: string[];
   compounds: KanjiCompound[];
-  relatedContent?: SiteContent[]; // related Content を定義
+  relatedContent: SiteContent[]; // related Content を定義
 }
 
 interface JLPTOptionalKanjiLevel {
