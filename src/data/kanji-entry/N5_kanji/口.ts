@@ -49,7 +49,7 @@ export const 口_entry: KanjiEntry = {
               'の',
               { kanji: '入って', reading: 'はいって' },
               'くるのを',
-              { kanji: '防いで', reading: 'ふせいで' },、',
+              { kanji: '防いで', reading: 'ふせいで' },
               { kanji: '純粋', reading: 'じゅんすい' },
               'な',
               { kanji: '心', reading: 'こころ' },

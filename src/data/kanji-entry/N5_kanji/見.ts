@@ -54,7 +54,7 @@ export const 見_entry: KanjiEntry = {
               'に',
               { kanji: '虎', reading: 'にじ' },
               'や',
-              { kajan: '花', reading: 'はな' },
+              { kanji: '花', reading: 'はな' },
               'を',
               { kanji: '見せて', reading: 'みせて' },
               'くれました。'
