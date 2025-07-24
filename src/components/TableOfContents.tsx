@@ -1,13 +1,15 @@
 import React from 'react';
 import type { JLPTRequiredKanjiLevel } from '../types/Kanji';
-import { Furigana } from './FuriganaText';
+// import { Furigana } from './FuriganaText';
 
 interface TableOfContentsProps {
   content: JLPTRequiredKanjiLevel;
   onSectionClick: (sectionId: string) => void;
 }
 
-export const TableOfContents: React.FC<TableOfContentsProps> = ({ content, onSectionClick }) => {
+export const TableOfContents: React.FC<TableOfContentsProps> = ({ content
+//  , onSectionClick
+ }) => {
   const scrollToKanji = (kanji: string) => {
     const element = document.querySelector(`[data-kanji="${kanji}"]`);
     if (element) {
