@@ -87,6 +87,16 @@ rt {
   text-align: center;
 }
 
+.level-header {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem 0;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 0.3rem;
+}
+
 .table-of-contents ul {
   list-style: none;
   padding: 0;

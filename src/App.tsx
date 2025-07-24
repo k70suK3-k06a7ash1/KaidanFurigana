@@ -3,7 +3,7 @@ import './App.css'
 import { ContentSection } from './components/ContentSection'
 import { TableOfContents } from './components/TableOfContents'
 import { ScrollToTop } from './components/ScrollToTop'
-import { siteContent } from './data/content'
+import { JapaneseLanguageProficiencyTestKanjiList } from './data/JapaneseLanguageProficiencyTestKanjiList'
 
 const App = () => {
   const sectionRefs = useRef<{ [key: string]: HTMLElement | null }>({})
@@ -27,18 +27,22 @@ const App = () => {
       </header>
       
       <TableOfContents 
-        content={siteContent} 
+        content={JapaneseLanguageProficiencyTestKanjiList} 
         onSectionClick={handleSectionClick}
       />
       
       <main>
-        {siteContent.sections.map(section => (
-          <ContentSection 
-            key={section.id} 
-            ref={setSectionRef(section.id)}
-            section={section} 
-          />
-        ))}
+        {[...JapaneseLanguageProficiencyTestKanjiList.N4_kanji, ...JapaneseLanguageProficiencyTestKanjiList.N5_kanji].flatMap(kanjiEntry => 
+          kanjiEntry.relatedContent.flatMap(content => 
+            content.sections.map(section => (
+              <ContentSection 
+                key={section.id} 
+                ref={setSectionRef(section.id)}
+                section={section} 
+              />
+            ))
+          )
+        )}
       </main>
       
       <ScrollToTop />

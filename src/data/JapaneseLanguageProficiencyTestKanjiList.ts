@@ -35,4 +35,4 @@ export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = 
     上_entry, 食_entry, 人_entry, 水_entry, 生_entry, 西_entry, 青_entry, 赤_entry, 千_entry, 川_entry,
     先_entry
   ]
-}
+} as const
