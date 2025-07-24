@@ -178,9 +178,17 @@ rt {
   gap: 0.5rem;
 }
 
-.kanji-readings, .kanji-compounds-preview {
+.kanji-readings {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.kanji-compounds-preview {
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   font-size: 1rem;
 }

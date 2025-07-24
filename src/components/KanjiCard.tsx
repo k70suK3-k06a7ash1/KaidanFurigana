@@ -30,13 +30,15 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
               ))}
             </div>
             <div className="kanji-compounds-preview">
-              <span className="label">例: </span>
-              {kanjiEntry.compounds.slice(0, 3).map((compound, index) => (
+              <div className="label">例: </div>
+              <div className='kanji-compounds-preview'>
+              {kanjiEntry.compounds.map((compound, index) => (
                 <span key={index} className="compound-preview">
                   {compound.word}({compound.reading}){index < Math.min(kanjiEntry.compounds.length, 3) - 1 ? '' : ''}
                 </span>
               ))}
-              {kanjiEntry.compounds.length > 3 && <span className="more">など</span>}
+              </div>
+             <span className="more">など</span>
             </div>
           </div>
         </div>
@@ -61,7 +63,7 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
 
           <div className="related-stories">
             <h4>関連する物語</h4>
-            {kanjiEntry.relatedContent.map((content, contentIndex) => 
+            {kanjiEntry.relatedContent.map((content) => 
               content.sections.map(section => (
                 <div key={section.id} className="story-preview">
                   <button
@@ -83,7 +85,7 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
       {/* Render the actual content sections when expanded */}
       {isExpanded && (
         <div className="content-sections">
-          {kanjiEntry.relatedContent.map((content, contentIndex) =>
+          {kanjiEntry.relatedContent.map((content) =>
             content.sections.map(section => (
               <ContentSection
                 key={section.id}
