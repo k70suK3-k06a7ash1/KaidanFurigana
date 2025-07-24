@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import './App.css'
-import { ContentSection } from './components/ContentSection'
+import { KanjiCard } from './components/KanjiCard'
 import { TableOfContents } from './components/TableOfContents'
 import { ScrollToTop } from './components/ScrollToTop'
 import { JapaneseLanguageProficiencyTestKanjiList } from './data/JapaneseLanguageProficiencyTestKanjiList'
@@ -32,17 +32,31 @@ const App = () => {
       />
       
       <main>
-        {[...JapaneseLanguageProficiencyTestKanjiList.N4_kanji, ...JapaneseLanguageProficiencyTestKanjiList.N5_kanji].flatMap(kanjiEntry => 
-          kanjiEntry.relatedContent.flatMap(content => 
-            content.sections.map(section => (
-              <ContentSection 
-                key={section.id} 
-                ref={setSectionRef(section.id)}
-                section={section} 
+        <div className="kanji-grid">
+          <div className="jlpt-level-section">
+            <h2 className="jlpt-level-title">N5 漢字</h2>
+            {JapaneseLanguageProficiencyTestKanjiList.N5_kanji.map(kanjiEntry => (
+              <KanjiCard
+                key={kanjiEntry.kanji}
+                kanjiEntry={kanjiEntry}
+                onSectionClick={handleSectionClick}
+                setSectionRef={setSectionRef}
               />
-            ))
-          )
-        )}
+            ))}
+          </div>
+          
+          <div className="jlpt-level-section">
+            <h2 className="jlpt-level-title">N4 漢字</h2>
+            {JapaneseLanguageProficiencyTestKanjiList.N4_kanji.map(kanjiEntry => (
+              <KanjiCard
+                key={kanjiEntry.kanji}
+                kanjiEntry={kanjiEntry}
+                onSectionClick={handleSectionClick}
+                setSectionRef={setSectionRef}
+              />
+            ))}
+          </div>
+        </div>
       </main>
       
       <ScrollToTop />

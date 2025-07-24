@@ -8,49 +8,49 @@ interface TableOfContentsProps {
 }
 
 export const TableOfContents: React.FC<TableOfContentsProps> = ({ content, onSectionClick }) => {
+  const scrollToKanji = (kanji: string) => {
+    const element = document.querySelector(`[data-kanji="${kanji}"]`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav className="table-of-contents">
-      <h2>目次</h2>
-      <ul>
-        <li key="N4_kanji">
-          <h3 className="level-header">N4_kanji</h3>
-          <ul>
-            {content.N4_kanji.flatMap(kanjiEntry => 
-              kanjiEntry.relatedContent.flatMap(siteContent => 
-                siteContent.sections.map(section => (
-                  <li key={section.id}>
-                    <button
-                      onClick={() => onSectionClick(section.id)}
-                      className="toc-link"
-                    >
-                      <Furigana kanji={section.title.kanji} reading={section.title.reading} />
-                    </button>
-                  </li>
-                ))
-              )
-            )}
-          </ul>
-        </li>
-        <li key="N5_kanji">
-          <h3 className="level-header">N5_kanji</h3>
-          <ul>
-            {content.N5_kanji.flatMap(kanjiEntry => 
-              kanjiEntry.relatedContent.flatMap(siteContent => 
-                siteContent.sections.map(section => (
-                  <li key={section.id}>
-                    <button
-                      onClick={() => onSectionClick(section.id)}
-                      className="toc-link"
-                    >
-                      <Furigana kanji={section.title.kanji} reading={section.title.reading} />
-                    </button>
-                  </li>
-                ))
-              )
-            )}
-          </ul>
-        </li>
-      </ul>
+      <h2>漢字一覧</h2>
+      <div className="kanji-levels">
+        <div className="kanji-level">
+          <h3 className="level-header">N5 漢字</h3>
+          <div className="kanji-grid-nav">
+            {content.N5_kanji.map(kanjiEntry => (
+              <button
+                key={kanjiEntry.kanji}
+                onClick={() => scrollToKanji(kanjiEntry.kanji)}
+                className="kanji-nav-button"
+                title={`${kanjiEntry.kanji} (${kanjiEntry.readings.join('、')})`}
+              >
+                {kanjiEntry.kanji}
+              </button>
+            ))}
+          </div>
+        </div>
+        
+        <div className="kanji-level">
+          <h3 className="level-header">N4 漢字</h3>
+          <div className="kanji-grid-nav">
+            {content.N4_kanji.map(kanjiEntry => (
+              <button
+                key={kanjiEntry.kanji}
+                onClick={() => scrollToKanji(kanjiEntry.kanji)}
+                className="kanji-nav-button"
+                title={`${kanjiEntry.kanji} (${kanjiEntry.readings.join('、')})`}
+              >
+                {kanjiEntry.kanji}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
     </nav>
   );
 };
