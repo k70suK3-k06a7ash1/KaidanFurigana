@@ -1,6 +1,6 @@
 import type { JLPTRequiredKanjiLevel } from "../types/Kanji";
 
-export const JapaneseLanguageProficiencyTest :JLPTRequiredKanjiLevel = {
+export const JapaneseLanguageProficiencyTestKanjiList :JLPTRequiredKanjiLevel = {
   "N4_kanji": [
     {
       "kanji": "悪",
